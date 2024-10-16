@@ -2,11 +2,7 @@ const colorButton = document.getElementById("colorButton")
 
 colorButton.addEventListener('click', ()=>{
 
-    colorButton.style.backgroundColor=
-
-    colorButton.style.backgroundColor===
-
-    'blue' ? '#4caf50': 'blue'
+    colorButton.style.backgroundColor=colorButton.style.backgroundColor==='blue' ? '#4caf50': 'blue'
 
 })
 
@@ -14,8 +10,6 @@ colorButton.addEventListener('click', ()=>{
 
 function myFunction() {
 
-    document.getElementById("paragraphClick").innerHTML =
-
-    "Button has already been clicked."
+    document.getElementById("paragraphClick").innerHTML =  "Button has already been clicked."
 
 }
