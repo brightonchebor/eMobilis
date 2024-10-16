@@ -1,5 +1,21 @@
-const colourButton = document.getElementById("colorButton")
+const colorButton = document.getElementById("colorButton")
 
-colourButton.addEventListener('click', ()=>{
-    colourButton.style.backgroundColor=colourButton.
+colorButton.addEventListener('click', ()=>{
+
+    colorButton.style.backgroundColor=
+
+    colorButton.style.backgroundColor===
+
+    'blue' ? '#4caf50': 'blue'
+
 })
+
+ 
+
+function myFunction() {
+
+    document.getElementById("paragraphClick").innerHTML =
+
+    "Button has already been clicked."
+
+}
