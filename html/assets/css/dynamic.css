@@ -11,4 +11,11 @@ h2{
 }
 button{
     background-color: #4caf50;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
 }
+button:hover{
+    background-color: cadetblue;
+}    
