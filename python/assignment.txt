@@ -1,6 +1,8 @@
 Question:
 
-Write a Python program that prompts the user to enter a password. The program should compare the entered password with a predefined password stored in the system. If the passwords match, the program should display "Access Granted." If they don't match, it should display "Access Denied."
+Write a Python program that prompts the user to enter a password. 
+The program should compare the entered password with a predefined password stored in the system. 
+If the passwords match, the program should display "Access Granted." If they don't match, it should display "Access Denied."
 
 Requirements:
 

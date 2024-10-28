@@ -6,3 +6,4 @@ if num1 != num2:
 
 else:
     print('The numbers are  eqaul')
+
