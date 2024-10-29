@@ -17,4 +17,4 @@ num1 = int(input('Enter the frist number:'))
 num2 = int(input('Enter the second number: '))
 
 def calc_sum(num1, num2):
-    print
+    print(f'sum is {num1 + num2}')
