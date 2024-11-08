@@ -2,7 +2,7 @@ from django.shortcuts import render
 
 def home(request):
 
-    return render(request, 'assignment/home.html', context={})
+    return render(request, 'assignment/hom.html', context={})
 
 def about_us(request):
 
@@ -18,4 +18,4 @@ def contact_us(request):
 
 def members(request):
 
-    return render(request, 'assignment/members.html', context={})
+    return render(request, 'assignment/member.html', context={})

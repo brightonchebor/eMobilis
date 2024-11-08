@@ -1,0 +1,24 @@
+{% extends "assignment/base.html" %}
+{% load static %}
+{% block title %} home {% endblock title %}
+{% block content %}
+    <header>
+        <nav class="navbar">
+            <a href="{% url "home" %}" class="nav-link"> Home </a>
+            <a href="{% url "about" %}" class="nav-link"> About Us</a>
+            <a href="{% url "contacts" %}" class="nav-link"> Contact Us </a>
+            <a href="{% url "members" %}" class="nav-link"> Members </a>
+            <a href="{% url "our-story" %}" class="nav-link"> Story </a>
+        </nav>
+    </header>
+    <h4>Learning Django</h4>
+
+    <p>
+        An Introduction to Django....
+    </p>
+    <img src="{% static ".\assets\images\home.jpg" %}" alt="my image">
+
+
+    <a href="#" class="button">Visit</a>
+{% endblock content %}
+
