@@ -1,0 +1,24 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My HTML Page</title>
+    <link rel="stylesheet" href=".\style.css">
+    <link rel="stylesheet" href="{% static '.\assets\styles.css' %}">
+</head>
+<body>
+    <h4>Welcome to my HTML page</h4>
+
+    <p>
+        This is a simple page I have created with HTML and CSS
+    </p>
+
+    <img src="{% static ".\images\image.jpg" %}" alt="my image">
+    
+
+    <a href="#" class="button">Visit</a>
+    
+</body>
+</html>
