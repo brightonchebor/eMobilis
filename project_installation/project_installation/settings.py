@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     # My apps
     'myapp',
     # 'templating',
-    'assignment',
+    # 'assignment',
 ]
 
 MIDDLEWARE = [

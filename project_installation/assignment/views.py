@@ -2,7 +2,7 @@ from django.shortcuts import render
 
 def home(request):
 
-    return render(request, 'assignment/hom.html', context={})
+    return render(request, 'assignment/index.html', context={})
 
 def about_us(request):
 
